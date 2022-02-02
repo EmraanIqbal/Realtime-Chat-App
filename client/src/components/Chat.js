@@ -34,8 +34,8 @@ const Chat = ({ socket = "", username = "", room = "" }) => {
       <h4>WhatsApp</h4>
       <br />
       <div>
-        {messageList.map((item, i) => (
-          <div key={i}>
+        {messageList.map((item, index) => (
+          <div key={index}>
             <h6>{item.message}</h6>
             <p>
               {item.time}
