@@ -2,7 +2,6 @@ import React from "react";
 import Box from "@mui/material/Box";
 import { Button, Stack, TextField, Typography } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
-// import "@fontsource/roboto/700.css";
 
 const Practice = () => {
   return (
